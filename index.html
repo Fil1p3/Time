@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificar Placar de Futebol</title>
+</head>
+<body>
+    <h1>Verificar Placar de Futebol</h1>
+    <form id="fute">
+        <label for="timeCasa">Nome do time da casa:</label>
+        <input type="text" id="timeCasa" required><br><br>
+
+        <label for="timeVisi">Nome do time visitante:</label>
+        <input type="text" id="timeVisi" required><br><br>
+
+        <label for="casaP">Placar do time da casa:</label>
+        <input type="number" id="casaP" required><br><br>
+
+        <label for="visiP">Placar do time visitante:</label>
+        <input type="number" id="visiP" required><br><br>
+
+        <button type="submit">Verificar Resultado</button>
+    </form>
+    <p id="resultado"></p>
+    <script src="./JS/Time.js"></script>
+</body>
+
+</html>
